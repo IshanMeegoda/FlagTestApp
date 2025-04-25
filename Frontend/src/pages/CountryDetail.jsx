@@ -16,7 +16,7 @@ const CountryDetail = () => {
   const [isFavorite, setIsFavorite] = useState(false);
   
   const { currentUser, isAuthenticated, favorites, addFavorite, removeFavorite } = useContext(AuthContext);
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://flag-test-app.vercel.app';
 
   useEffect(() => {
     const fetchCountryData = async () => {

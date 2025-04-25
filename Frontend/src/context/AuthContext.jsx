@@ -10,7 +10,7 @@ export const AuthProvider = ({ children }) => {
   const [favorites, setFavorites] = useState([]);
 
   // Match your backend URL
-  const API_URL = 'http://localhost:5000';
+  const API_URL = 'https://flag-test-app.vercel.app';
 
   useEffect(() => {
     const checkLoggedIn = async () => {
